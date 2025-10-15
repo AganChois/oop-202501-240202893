@@ -133,10 +133,13 @@ public class HelloFunctional {
 ## Hasil Eksekusi 
 Hasil 1:
 ![Screenshot hasil](screenshots/HelloWorld.png)
+
 Hasil 2:
 ![Screenshot hasil](screenshots/HelloProcedural.png)
+
 Hasil 3:
 ![Screenshot hasil](screenshots/HelloOOP.png)
+
 Hasil 4:
 ![Screenshot hasil](screenshots/HelloFuncional.png)
 ---
