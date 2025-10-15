@@ -151,7 +151,7 @@ Hasil 4:
 
 ## Analisis
 Kode Java dimulai dari program sederhana HelloWorld.java yang mencetak teks ke layar menggunakan method main, menunjukkan bahwa instalasi dan eksekusi Java berjalan dengan baik. Pendekatan minggu ini berbeda karena tidak hanya mengenalkan sintaks dasar, tetapi juga memperkenalkan tiga gaya pemrograman: prosedural, berorientasi objek, dan fungsional. Dalam pendekatan prosedural, seluruh logika dijalankan berurutan di dalam satu fungsi, sedangkan pada OOP digunakan kelas dan objek agar program lebih terstruktur dan mudah dikembangkan. Pendekatan fungsional menggunakan konsep lambda dan Stream API untuk menulis kode lebih singkat dan efisien dalam memproses data. Kendala yang umum seperti error instalasi atau kesalahan nama file dapat diatasi dengan memastikan Java terpasang dengan benar dan penulisan kode sesuai aturan sintaks.
----
+
 
 ## Kesimpulan
 Setiap pendekatan memiliki cara kerja dan keunggulan berbeda. Pendekatan prosedural lebih sederhana dan mudah dipahami untuk program kecil, sementara OOP memberikan struktur yang rapi dan fleksibel untuk pengembangan jangka panjang. Pendekatan fungsional menawarkan cara yang lebih modern dan efisien dalam memproses data dengan kode yang ringkas. Melalui perbandingan ini, kita dapat memahami evolusi cara berpikir dalam pemrograman dari langkah-langkah terurut menuju konsep berbasis objek dan fungsi.
