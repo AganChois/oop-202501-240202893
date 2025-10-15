@@ -144,11 +144,11 @@ Hasil:
 
 ## Analisis
 Produk.java, CreditBy.java, dan MainProduk.java, masing-masing disusun menggunakan konsep Object-Oriented Programming (OOP). File Produk.java berisi kelas Produk yang merepresentasikan data barang dengan atribut seperti kode, nama, harga, dan stok, serta memiliki getter, setter, dan metode untuk menambah atau mengurangi stok. File CreditBy.java berfungsi mencetak identitas pembuat program melalui metode print(). File utama MainProduk.java menjadi titik eksekusi program dengan membuat tiga objek Produk, menampilkan data awal, mengubah stok melalui pemanggilan metode dari objek, lalu menampilkan hasil perubahannya di layar bersama identitas mahasiswa. Pendekatan minggu ini berbeda dari minggu sebelumnya karena sudah menerapkan konsep modularitas dan enkapsulasi dalam OOP, di mana kode dibagi menjadi beberapa kelas dengan tanggung jawab spesifik sehingga lebih mudah diatur dan dikembangkan dibanding pendekatan prosedural yang hanya menggunakan satu fungsi main. Kendala yang umum terjadi adalah error seperti ClassNotFoundException akibat kesalahan struktur package atau direktori, yang dapat diatasi dengan memastikan struktur folder sesuai dengan deklarasi package di awal file dan menjalankan program dari direktori utama proyek menggunakan perintah yang benar seperti java main.java.com.upb.agripos.MainProduk.
----
+
 
 ## Kesimpulan
 program ini menunjukkan penerapan konsep dasar Object-Oriented Programming (OOP) dalam membangun aplikasi sederhana untuk pengelolaan produk. Dengan membagi kode ke dalam beberapa kelas seperti Produk, CreditBy, dan MainProduk, program menjadi lebih terstruktur, mudah dibaca, serta lebih fleksibel untuk dikembangkan di masa mendatang. Pendekatan ini juga memperlihatkan keunggulan OOP dalam mengorganisasi data dan perilaku objek secara terpisah namun saling terhubung. Melalui penerapan metode seperti getter, setter, dan manipulasi stok, konsep enkapsulasi dan interaksi antar objek dapat dipahami dengan jelas.
----
+
 
 ## Quiz
 1. Mengapa atribut sebaiknya dideklarasikan sebagai private dalam class?  
