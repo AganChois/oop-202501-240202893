@@ -171,4 +171,4 @@ Setiap pendekatan memiliki cara kerja dan keunggulan berbeda. Pendekatan prosedu
    **Jawaban:** Karena aplikasi POS memiliki banyak entitas seperti produk, pelanggan, dan transaksi yang saling berhubungan, OOP memudahkan pengelolaan dengan membungkus data dan perilaku dalam objek. Pendekatan ini membuat sistem lebih modular, mudah diperluas, dan lebih aman terhadap perubahan.
 
 5. Bagaimana paradigma fungsional dapat membantu mengurangi kode berulang (*boilerplate code*)?
-   **Jawaban:** Paradigma fungsional mengurangi kode berulang dengan memanfaatkan fungsi-fungsi murni, ekspresi lambda, dan operasi berbasis koleksi seperti map, filter, dan reduce. Dengan cara ini, logika yang sama tidak perlu ditulis berulang, sehingga kode menjadi lebih singkat, jelas, dan mudah dipelihara.
+   **Jawaban:** Paradigma fungsional mengurangi kode berulang dengan memanfaatkan fungsi-fungsi murni, ekspresi lambda, dan operasi berbasis koleksi seperti map, filter, dan reduce. Dengan cara ini, logika yang sama tidak perlu ditulis berulang, sehingga kode menjadi lebih singkat, jelas, dan mudah dipelihara
