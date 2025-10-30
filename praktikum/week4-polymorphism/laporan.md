@@ -128,7 +128,7 @@ public class MainPolymorphism {
 ---
 
 ## Hasil Eksekusi
-  ![Screenshot hasil](w4-pholymorpisem.png)
+![Screenshot hasil](w4-pholymorpisem.png)
 
 ---
 
