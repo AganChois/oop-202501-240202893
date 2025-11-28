@@ -1,0 +1,73 @@
+classDiagram
+
+class Produk {
+    -kode : String
+    -nama : String
+    -kategori : String
+    -harga : double
+    -stok : int
+    +getHarga() double
+    +kurangiStok(qty:int)
+}
+
+class Keranjang {
+    -items : List~Produk~
+    +tambahProduk(p:Produk)
+    +hitungTotal() double
+}
+
+class Pembayaran {
+    <<interface>>
+    +pay(amount:double) boolean
+}
+
+class Tunai {
+    +pay(amount:double) boolean
+}
+
+class EWallet {
+    -saldo : double
+    +pay(amount:double) boolean
+}
+
+class Kartu {
+    -bank : String
+    +pay(amount:double) boolean
+}
+
+class PaymentProcessor {
+    -method : Pembayaran
+    +process(amount:double)
+}
+
+class Transaksi {
+    -id : String
+    -produk : List~Produk~
+    -total : double
+    +simpanTransaksi()
+}
+
+class Laporan {
+    +generateHarian()
+    +generateBulanan()
+}
+
+class Admin {
+    +kelolaProduk()
+    +lihatLaporan()
+}
+
+class Kasir {
+    +scanProduk()
+    +prosesPembayaran()
+}
+
+Produk --> Keranjang : berisi
+Keranjang --> Transaksi : menghasilkan
+Pembayaran <|.. Tunai
+Pembayaran <|.. EWallet
+Pembayaran <|.. Kartu
+PaymentProcessor --> Pembayaran : menggunakan
+Admin --> Laporan
+Kasir --> Keranjang
+Kasir --> PaymentProcessor

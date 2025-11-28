@@ -1,0 +1,25 @@
+flowchart LR
+    actorKasir([Kasir])
+    actorAdmin([Admin])
+    actorGateway([Payment Gateway])
+
+    subgraph AgriPOS System
+        UC1([Kelola Produk])
+        UC2([Scan Produk])
+        UC3([Kelola Keranjang])
+        UC4([Hitung Total])
+        UC5([Proses Pembayaran])
+        UC6([Cetak Struk])
+        UC7([Lihat Laporan])
+    end
+
+    actorKasir --> UC2
+    actorKasir --> UC3
+    actorKasir --> UC4
+    actorKasir --> UC5
+    actorKasir --> UC6
+
+    actorAdmin --> UC1
+    actorAdmin --> UC7
+
+    UC5 --> actorGateway

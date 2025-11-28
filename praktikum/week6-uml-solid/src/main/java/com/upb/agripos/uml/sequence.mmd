@@ -1,0 +1,24 @@
+sequenceDiagram
+    participant Kasir
+    participant Sistem
+    participant Keranjang
+    participant Payment as PaymentMethod
+    participant Gateway
+    participant Transaksi
+
+    Kasir->>Sistem: scanProduk(kode)
+    Sistem->>Keranjang: tambahProduk()
+    Kasir->>Sistem: selesaiScan()
+    Sistem->>Keranjang: hitungTotal()
+    Keranjang-->>Sistem: total
+
+    Kasir->>Payment: pilihMetode(type)
+    Payment-->>Kasir: metodeDipilih
+
+    Kasir->>Payment: pay(total)
+    Payment->>Gateway: prosesPembayaran()
+    Gateway-->>Payment: status
+
+    Payment-->>Sistem: hasilPembayaran
+    Sistem->>Transaksi: simpanTransaksi()
+    Transaksi-->>Kasir: bukti transaksi

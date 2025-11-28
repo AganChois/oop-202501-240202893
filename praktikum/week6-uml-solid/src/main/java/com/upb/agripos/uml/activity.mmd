@@ -1,0 +1,35 @@
+flowchart TD
+    A([Start]) --> B[Scan Produk]
+    B --> C{Produk Ada?}
+    C -->|Tidak| Z([Tolak / Input Ulang])
+    C -->|Ya| D[Tambahkan Produk ke Keranjang]
+
+    D --> E{Tambah Produk Lagi?}
+    E -->|Ya| B
+    E -->|Tidak| F[Hitung Total]
+
+    F --> G[Pilih Metode Pembayaran]
+
+    G --> H{Tunai / E-Wallet / Kartu?}
+
+    %% Tunai
+    H -->|Tunai| I[Input Uang]
+    I --> J{Uang Cukup?}
+    J -->|Tidak| I
+    J -->|Ya| K[Hitung Kembalian]
+
+    %% Non-Tunai
+    H -->|E-Wallet| L[Validasi Saldo / Autentikasi]
+    L --> M{Saldo Cukup?}
+    M -->|Tidak| L
+    M -->|Ya| N[Konfirmasi Pembayaran]
+
+    H -->|Kartu| O[Verifikasi Bank]
+    O --> P{Berhasil?}
+    P -->|Tidak| O
+    P -->|Ya| N
+
+    K --> Q[Cetak Struk]
+    N --> Q
+
+    Q --> R([Selesai])
