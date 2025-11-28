@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 6
 Topik: Desain Arsitektur Sistem dengan UML dan Prinsip SOLID
 
 ## Identitas
