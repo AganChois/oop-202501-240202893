@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 13
 Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 
 ## Identitas

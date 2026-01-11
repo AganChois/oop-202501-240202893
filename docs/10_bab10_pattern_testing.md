@@ -96,7 +96,7 @@ public class ConsoleView {
 }
 ```
 
-### 3. Controller (WAJIB DIISI)
+### 3. Controller 
 ```java
 package com.upb.agripos.controller;
 
