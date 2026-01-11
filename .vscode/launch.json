@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AppJavaFX",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.AppJavaFX",
+            "projectName": "oop-202501-240202893_9aa15e5e"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppJavaFX",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.AppJavaFX",
+            "projectName": "week12-gui-dasar",
+            "vmArgs": "--module-path \"C:/path/to/javafx-sdk/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
