@@ -521,21 +521,14 @@ public class CartServiceTest {
 
 
 ---
----
 
 ## Hasil Eksekusi
- 
 ![Screenshot hasil](screenshots/HasilWeek14.png)
 
----
----
 
 ## Analisis
 Aplikasi berjalan dengan alur MVC di mana View menangani interaksi pengguna, Controller mengatur logika, dan Model menyimpan data produk serta keranjang. Dibandingkan minggu sebelumnya yang hanya fokus pada OOP dan DAO, praktikum ini menambahkan JavaFX dan integrasi antarmuka grafis. Kendala utama yang dihadapi adalah data kode dan nama produk tidak muncul di tabel keranjang, yang diatasi dengan memperbaiki TableColumn menggunakan CellValueFactory berbasis properti objek.
----
----
 
 ## Kesimpulan
 Dengan mengintegrasikan JavaFX, MVC, database, dan Collection, aplikasi POS dapat berjalan secara interaktif, terstruktur, dan mudah dikembangkan, serta mampu menangani manajemen produk dan transaksi dengan baik.
 
----
